@@ -69,10 +69,9 @@ UNIQUE(mail)
 
 INSERT INTO dipendenti (nome, cognome, mail, password, ruolo, confirmed) VALUES ('admin','admin', 'admin', 'admin', 'admin', 1);
 
-//ESEMPI
-INSERT INTO corsi(nome_corso, durata, costo) VALUES ('pilates', 60, 45);
 
 INSERT INTO corsi (nome_corso, data_inizio_corso, data_fine_corso, descrizione)
-VALUES ('Corso di Fitness', '2023-09-01', '2023-09-30', 'Un corso completo di fitness per principianti.');
-INSERT INTO corsi (nome_corso, data_inizio_corso, data_fine_corso, prezzo)
-VALUES ('Corso di Yoga', '2023-10-01', '2023-10-31', 90);
+VALUES ('Corso di Fitness', '2023-09-01', '2023-09-30', 'Un corso completo di fitness.');
+
+INSERT INTO corsi (nome_corso, data_inizio_corso, data_fine_corso, descrizione)
+VALUES ('Corso di Yoga', '2023-10-01', '2023-10-31', 'Un corso completo di yoga.');
